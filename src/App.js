@@ -8,12 +8,13 @@ const App = () => {
 	const randomWorkout = workoutData[randomIndex].description;
 
 	return (
-		<div className="container d-flex justify-content-center">
+		<div className="container d-flex flex-column justify-content-center">
 			<div className="card workout-card d-flex align-items-center">
 				<h1>Workout Of The Day</h1>
 				<DateTile />
 				<p className="workout-description">{randomWorkout}</p>
 			</div>
+			<p className="text-white align-self-center">&copy; Bryan Herrera | Fullstack Web Developer</p>
 		</div>
 	);
 };

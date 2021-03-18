@@ -22,6 +22,8 @@ body {
 	min-width: 500px;
 	margin-top: 5%;
 	margin-bottom: 5%;
+	margin-left: auto;
+	margin-right: auto;
 	white-space: pre-wrap;
 	padding: 3em 2em;
 	border-radius: 1rem;
