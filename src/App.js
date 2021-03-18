@@ -1,25 +1,21 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
+import DateTile from './Components/DateTile';
+import workoutData from './WorkoutData';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+const App = () => {
+	const randomIndex = Math.floor(Math.random() * workoutData.length);
+	const randomWorkout = workoutData[randomIndex].description;
+
+	return (
+		<div className="container d-flex justify-content-center">
+			<div className="card workout-card d-flex align-items-center">
+				<h1>Workout Of The Day</h1>
+				<DateTile />
+				<p className="workout-description">{randomWorkout}</p>
+			</div>
+		</div>
+	);
+};
 
 export default App;
