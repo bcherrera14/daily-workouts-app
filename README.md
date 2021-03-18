@@ -2,9 +2,9 @@
 
 *Display a random workout for the day.*
 
-Try it [here](https://bcherrera14.github.io/todo-app/)
+Try it [here](workout-of-the-day.netlify.app)
 
-![App Image](AppImage.PNG)
+<img src="./AppImage.PNG" alt="alt text" width="400px">
 
 ## Summary
 
