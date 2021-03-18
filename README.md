@@ -12,4 +12,4 @@ I used a web scrapper written in python to collect workouts from one of my favor
 
 ## Author
 
-* **Bryan Herrera** - *Full-Stack Developer* - [Website](http://bryan-herrera.com) | [LinkedIn](https://www.linkedin.com/in/hbryan-chris-herrera/)  
+* **Bryan Herrera** - *Full-Stack Developer* - [Website](http://bryan-herrera.com) | [LinkedIn](https://www.linkedin.com/in/bryan-chris-herrera/)  
