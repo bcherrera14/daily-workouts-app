@@ -14,7 +14,11 @@ const App = () => {
 				<DateTile />
 				<p className="workout-description">{randomWorkout}</p>
 			</div>
-			<p className="text-white align-self-center copyright">&copy; Bryan Herrera | Fullstack Web Developer</p>
+			<p className="text-white align-self-center copyright">
+				<a className="text-white" href="https://www.bryan-herrera.com">
+					&copy; Bryan Herrera | Fullstack Web Developer
+				</a>
+			</p>
 		</div>
 	);
 };
